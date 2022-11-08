@@ -4,11 +4,18 @@ import { generate, selectQuote } from "./quoterSlice";
 import styles from "./Quoter.module.css";
 
 export function Quoter() {
+    const cardStyle = {
+        backgroundColor: "#fff",
+        border: "2px solid gray",
+        borderRadius: "25px",
+        padding: "25px",
+    };
+
     const quote = useSelector(selectQuote);
     const dispatch = useDispatch();
 
     return (
-        <div>
+        <div style={cardStyle}>
             <div id="quote-box" className={styles.row}>
                 <div>
                     <span id="author" className={styles.value}>
