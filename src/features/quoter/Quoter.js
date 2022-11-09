@@ -14,11 +14,11 @@ export function Quoter() {
     return (
         <div className={styles.cardBackground} style={cardBackgroundColor}>
             <div id="quote-box" className={styles.card}>
+                <div id="author" className={styles.author}>
+                    @{quote.author}:
+                </div>
                 <div id="text" className={styles.text}>
                     “{quote.text}”
-                </div>
-                <div id="author" className={styles.author}>
-                    @{quote.author}
                 </div>
                 <div className={styles.footer}>
                     <a

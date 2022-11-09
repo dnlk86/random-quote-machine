@@ -2,10 +2,18 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     quotes: [
-        { author: "Daniel", text: ":D", color: "#FF5400" },
+        {
+            author: "Daniel",
+            text: "Ok Bi... promesso, dopo lo faccio...",
+            color: "#FF5400",
+        },
         { author: "Mariangela", text: "Rock & Roll!", color: "#ea84c9" },
-        { author: "Tina", text: "Stonk...", color: "#9E0059" },
-        { author: "Nenno", text: "MGNAH!", color: "#84e6f8" },
+        {
+            author: "Tina",
+            text: "Stonk...   ...   ...   ...   ...   ...   ...   ...   ...",
+            color: "#9E0059",
+        },
+        { author: "Nenno", text: "...MGNAHHH!", color: "#84e6f8" },
     ],
     currentQuote: {
         author: "Pinco Pallino",
