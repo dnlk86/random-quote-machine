@@ -2,7 +2,9 @@
 
 This certification project is the first of the FreeCodeCamp's Front End Development Libraries curriculum.
 
-[Build a Random Quote Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine){:target="\_blank"}
+<a href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine" target="_blank">Build a Random Quote Machine</a>
+
+<!-- [Build a Random Quote Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine){:target="\_blank"} -->
 
 ## Technologies
 
@@ -14,4 +16,6 @@ In order fulfill the project's requirements I decided to use the following techn
 
 ### Random Quote Machine live
 
-Please follow this link for the live project: [Random Quote Machine](https://dnlk86.github.io/random-quote-machine){:target="\_blank"}
+Please follow this link for the live project: <a href="https://dnlk86.github.io/random-quote-machine" target="_blank">Random Quote Machine</a>
+
+<!-- [Random Quote Machine](https://dnlk86.github.io/random-quote-machine){:target="\_blank"} -->
